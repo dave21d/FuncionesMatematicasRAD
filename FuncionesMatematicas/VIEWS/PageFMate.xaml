@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FuncionesMatematicas.VIEWS.PageFMate">
+    <ContentPage.Content>
+        <StackLayout Background="skyblue">
+
+            <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
+                <Label Text="Funciones Matematicas" HorizontalTextAlignment="Center" TextColor="Wheat" FontSize="33"/>
+            </Frame>
+            <Label Text="Ingresar Valor 1"
+           HorizontalOptions="Start"
+                   FontSize="Title"
+                   Margin="5,20"
+                   FontAttributes="Italic"
+                  
+                   />
+            <Entry x:Name="nume1"
+                   
+                   Placeholder="Ingresar  Primeros Digitos"
+                   Keyboard="Numeric"
+                   BackgroundColor="Azure"
+                   FontAttributes="Bold"
+                   />
+             <Label Text="Ingresar Valor 2"
+                   HorizontalOptions="Start"
+                   FontSize="Title"
+                   Margin="5,20"
+                   FontAttributes="Italic"
+             
+                   
+                   
+                   />
+            <Entry x:Name="nume2"
+                   Placeholder="Ingresar  Segundos Digitos"
+                   Keyboard="Numeric"
+                   BackgroundColor="Azure"
+                       FontAttributes="Bold"
+                   
+                   />
+
+            <Button x:Name="Sumatoria"
+                    FontAttributes="Bold"
+                    Text="Sumar"
+                    FontSize="20"
+                    TextTransform="Uppercase"
+                    Margin="5,10"
+                    
+                    Clicked="Sumatoria_Clicked"
+                    Background="silver"
+                    
+               />
+            <Button x:Name="Resta"
+                    FontAttributes="Bold"
+                    Text="Resta"
+                    FontSize="20"
+                    TextTransform="Uppercase"
+                     Margin="5,5"
+                    
+                  Clicked="Resta_Clicked"
+                    Background="silver"
+                    
+               />
+            <Button x:Name="Multiplicacion"
+                    FontAttributes="Bold"
+                    Text="Multiplicacion"
+                    FontSize="20"
+                    TextTransform="Uppercase"
+                    Margin="5,5"
+                    Clicked="Multiplicacion_Clicked"
+                    Background="silver"
+                    
+               />
+            <Button x:Name="Division"
+                    FontAttributes="Bold"
+                    Text="Division"
+                    FontSize="20"
+                    TextTransform="Uppercase"
+                    Margin="5,5"
+                    Clicked="Division_Clicked"
+                    Background="silver"
+                    
+               />
+            
+            
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

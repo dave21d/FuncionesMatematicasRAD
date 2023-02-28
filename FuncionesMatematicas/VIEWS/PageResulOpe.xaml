@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FuncionesMatematicas.VIEWS.PageResulOpe">
+    <ContentPage.Content>
+        <StackLayout Background="skyblue">
+
+            <Label Text="Resultado de Operaciones Matematicas"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Background="blue"
+                   HorizontalOptions="Center"
+                   TextColor="LightSalmon"
+                   
+                   />
+            <Label Text="Resultado:"
+                   FontSize="Large"
+                   />
+            <Label Text="{Binding resultado}"
+                VerticalOptions="Start" 
+                   FontSize="Large"
+                TextDecorations="Underline"
+                   Margin="5,0"
+                HorizontalOptions="Start" />
+            
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
